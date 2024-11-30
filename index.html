@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Foster understanding and promote inclusive digital experiences for all">
+    <title>Empower Ability Labs</title>
+    <link rel="stylesheet" href="EmpowerAbilityLab.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a class="navbar-brand" href="#"><img src="empowerabilitylabslogo.png" alt="Empower Ability Labs Logo" style="height:50px;"></a>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#schedule">Schedule a Call</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <h1>Welcome to Empower Ability Labs!</h1>
+        <p>Empower Ability Labs is a hub for learning and empathy-building. We offer a range of services designed to promote accessibility awareness and enhance user experience.</p>
+      </section>
+      <section id="services">
+        <h2>Our Services</h2>
+        <p>We provide workshops, inspirational speakers, and usability testing to promote inclusivity.</p>
+        <img src="services.png" alt="Overview of Our Services" style="width:100%; max-width:600px;">
+      </section>
+      <section id="schedule">
+        <h2>Schedule a Call</h2>
+        <img src="scheduleacall.png" alt="Schedule a Call" style="width:100%; max-width:600px; margin-bottom:20px;">
+        <form id="scheduleForm">
+          <label for="businessName">Business Name:</label>
+          <input type="text" id="businessName" name="businessName" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="topic">What would you like to talk about?</label>
+          <select id="topic" name="topic">
+            <option value="workshops">Awareness Lab Days and Workshops</option>
+            <option value="speakers">Invite a Speaker</option>
+            <option value="usability">Usability Testing</option>
+          </select>
+          <button type="submit">Schedule</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>© Empower Ability Labs Inc 2023. All rights reserved.</p>
+    </footer>
+    <div id="communityModal" style="display:none;">
+      <div>
+        <h2>Meet the Empower Community</h2>
+        <p>We collaborate with companies like Walmart, Google, and Apple to promote accessibility.</p>
+        <button id="closeModal">Close</button>
+      </div>
+    </div>
+    <script src="EmpowerAbilityLab.js"></script>
+  </body>
+</html>
